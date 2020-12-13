@@ -4,6 +4,8 @@ A simple spring-boot application that allows users to create and manage their ad
 ### Prerequisites
 - Java 8
 - Mongodb
+  - Windows: Run "choco install mongodb"
+  - Mac: Run "brew tap mongodb/brew  && bbrew install mongodb-community@4.0"
 
 ### Requirements From Documentation
 You have been asked to develop an address book that allows a user to store (between
@@ -49,6 +51,7 @@ complements). For example given:
 
 ## Future Improvements
 - Unfortunately, due to timing, only had Sunday to work on this, so may not be as polished as I wanted.
+- For a sorted list of Friends I would implement a sorted list or sorted set as the data structure (just noticed this).
 - More exhaustive testing can be done on integration etc.
 - Authentication and Authorisation needs to be implemented for security purposes. I would consider something on the lines 
   of a 0Auth2.0 with JWT token type flow for this project.
