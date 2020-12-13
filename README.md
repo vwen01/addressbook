@@ -37,6 +37,18 @@ complements). For example given:
 - Post GetUniqueFriends: localhost:8080/user/address_book/unique/{userId}
   - payload: [{"name": "Friend1","phoneNumber": "11111"}, {"name": "Friend2","phoneNumber": "00000"}]
 
+### Start Mongo
+
+```sh
+Mac: 
+Start: brew services start mongodb-community@4.4
+Stop: brew services stop mongodb-community@4.4
+
+Windows:
+Start: Mongod
+
+```
+
 ### Build
 
 ```sh
