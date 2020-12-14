@@ -26,6 +26,7 @@ complements). For example given:
 - Friends do not need to be Users
 - User can have no Friends
 - Friend names must be unique
+- MongoDb chosen as it scales better horizontally, I feel its likely that you'd want more fields in the future if you were to develop this out.
 
 ### REST APIs
 - Get AllUsers:  localhost:8080/user/all
